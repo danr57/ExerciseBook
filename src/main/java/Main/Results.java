@@ -55,73 +55,20 @@ public class Results {
 
     }
 
-
-    public int getPhysMark() {
-        return physMark;
-    }
-
-    public void setPhysMark(int physMark) {
-        this.physMark = physMark;
-    }
-
-    public int getChemMark() {
-        return chemMark;
-    }
-
-    public void setChemMark(int chemMark) {
-        this.chemMark = chemMark;
-    }
-
-    public int getBioMark() {
-        return bioMark;
-    }
-
-    public void setBioMark(int bioMark) {
-        this.bioMark = bioMark;
-    }
-
-    public int getFailedSubjects() {
-        return failedSubjects;
-    }
-
-    public void setFailedSubjects(int failedSubjects) {
-        this.failedSubjects = failedSubjects;
-    }
-
-    public float getPercentage() {
-        return percentage;
-    }
-
     public void setPercentage(float percentage) {
         this.percentage = percentage;
-    }
-
-    public float getTotal() {
-        return total;
     }
 
     public void setTotal(float total) {
         this.total = total;
     }
 
-    public boolean isPassedPhys() {
-        return passedPhys;
-    }
-
     public void setPassedPhys(boolean passedPhys) {
         this.passedPhys = passedPhys;
     }
 
-    public boolean isPassedChem() {
-        return passedChem;
-    }
-
     public void setPassedChem(boolean passedChem) {
         this.passedChem = passedChem;
-    }
-
-    public boolean isPassedBio() {
-        return passedBio;
     }
 
     public void setPassedBio(boolean passedBio) {
